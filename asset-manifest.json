@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/car-react/static/css/main.f0a9869f.chunk.css",
+    "main.js": "/car-react/static/js/main.e749fdb6.chunk.js",
+    "main.js.map": "/car-react/static/js/main.e749fdb6.chunk.js.map",
+    "runtime-main.js": "/car-react/static/js/runtime-main.a1fa1f72.js",
+    "runtime-main.js.map": "/car-react/static/js/runtime-main.a1fa1f72.js.map",
+    "static/js/2.8439b6b6.chunk.js": "/car-react/static/js/2.8439b6b6.chunk.js",
+    "static/js/2.8439b6b6.chunk.js.map": "/car-react/static/js/2.8439b6b6.chunk.js.map",
+    "static/js/3.d184f6db.chunk.js": "/car-react/static/js/3.d184f6db.chunk.js",
+    "static/js/3.d184f6db.chunk.js.map": "/car-react/static/js/3.d184f6db.chunk.js.map",
+    "index.html": "/car-react/index.html",
+    "static/css/main.f0a9869f.chunk.css.map": "/car-react/static/css/main.f0a9869f.chunk.css.map",
+    "static/js/2.8439b6b6.chunk.js.LICENSE.txt": "/car-react/static/js/2.8439b6b6.chunk.js.LICENSE.txt",
+    "static/media/40251.png": "/car-react/static/media/40251.749b90d0.png",
+    "static/media/AudiS5.png": "/car-react/static/media/AudiS5.d8020723.png",
+    "static/media/Bugatti.png": "/car-react/static/media/Bugatti.67ff97e6.png",
+    "static/media/FordMustang.png": "/car-react/static/media/FordMustang.cb34d0b5.png",
+    "static/media/Kia.jpg": "/car-react/static/media/Kia.204f969f.jpg",
+    "static/media/LOGOAuto.svg": "/car-react/static/media/LOGOAuto.e90898f0.svg",
+    "static/media/Lexus.jpg": "/car-react/static/media/Lexus.a0fa7ae3.jpg",
+    "static/media/MercedesGle.jpg": "/car-react/static/media/MercedesGle.626e6a20.jpg",
+    "static/media/Nexia.jpg": "/car-react/static/media/Nexia.7b6392e9.jpg",
+    "static/media/Opel.jpg": "/car-react/static/media/Opel.ec4eafc4.jpg",
+    "static/media/Porsh.png": "/car-react/static/media/Porsh.a91dc505.png",
+    "static/media/basket3081797.svg": "/car-react/static/media/basket3081797.6ca36c59.svg",
+    "static/media/ford.jpg": "/car-react/static/media/ford.749274d5.jpg",
+    "static/media/nissan.jpg": "/car-react/static/media/nissan.9958cf3a.jpg",
+    "static/media/search80737.svg": "/car-react/static/media/search80737.a9de3efe.svg",
+    "static/media/vaz.jpg": "/car-react/static/media/vaz.fb8f37df.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a1fa1f72.js",
+    "static/js/2.8439b6b6.chunk.js",
+    "static/css/main.f0a9869f.chunk.css",
+    "static/js/main.e749fdb6.chunk.js"
+  ]
+}
