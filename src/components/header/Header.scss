@@ -1,0 +1,37 @@
+
+.header {
+    @include displayf($df, $fdr, $jcsb, $aic);
+    margin-top: 1.9rem;
+    &__logo {
+        margin-left: 1px;
+    }
+
+    &__link {
+        width: calc(644 / 1170 * 100%);
+        @include displayf($df, $fdrr, $jcsb, $aic);
+        @include font($fz14, $fw6, $fh19, $fsn);
+        font-family: Open Sans;
+        color: #252A34;
+        letter-spacing: 0.05px;
+        margin-left: 0.6rem;
+    }
+
+    &__registr {
+        @include displayf($df, $fdr, $jcsb, $aic);
+        .header__login {
+            @include font($fz16, $fw6, $fh22, $fsn);
+            font-family: $ffo;
+            color: #FF2E63;
+            margin-right: 1.9rem;
+        }
+
+        .header__button {
+            @include font($fz16, $fw6, $fh22, $fsn);
+            font-family: $ffo;
+            color: #FFFFFF;
+            border-radius: 5px;
+            background: #FF2E63;
+            padding: 8px 23px 10px 23px;
+        }
+    }
+}

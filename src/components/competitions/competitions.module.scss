@@ -1,0 +1,54 @@
+.competitions{
+    @include displayf($df, $fdc, $jcsb, $jsbs);
+    margin-top: 3.9rem;
+    &__title {
+        @include displayf($df, $fdr, $jcsb, $aic);
+        width: 100%;
+        .competitions__title-name{
+            @include font ($fz36, $fw7, $fh46, $fsn);
+            font-family: $ffr;
+            width: 30%;
+        }
+        .search{
+            width: 55%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            &__input {
+                 width: 50%;
+            }
+            &__icon {
+                margin-left: 1%;
+                width: 3.5%;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+        .cart {
+            width: 15%;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            align-items: center;
+            &__img {
+                width: 15%;
+                margin-right: 4%;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    &__catalog {
+        width: 100%;
+        @include displayf($df, $fdr, $jcsb, $jcsb);
+        flex-flow: wrap;
+    }
+    &__still-loading{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        outline: $oul;
+    }
+}

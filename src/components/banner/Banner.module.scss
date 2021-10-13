@@ -1,0 +1,46 @@
+.banner{
+    @include displayf($df, $fdr, $jcsb, $aifs);
+    margin-top: 1.2rem;
+    height: 60vh;
+    &__title {
+        width: 40%;
+        .banner__title-one {
+            margin-top: 6.4rem;
+        }
+        .banner__title-two{
+            color: #FF2E63;
+        }
+        .title-banner{
+            font-family: $ffr;
+            @include font ($fz50, $fw7, $fh60, $fsn);
+        }
+        .banner__button {
+            @include font ($fz16, $fw6, $fh22, $fsn);
+            color: white;
+            border-radius: 5px;
+            background: #346CD9;
+            padding: 8px 21px 10px 21px;
+            margin-top: 2.2rem;
+        }
+    }
+    &__images{
+        width: 60%;
+        .banner__circle {
+            width: 25rem;
+            height: 25rem;
+            margin-left: 16.4rem;
+            margin-top: 0.4rem;
+            position: absolute;
+            border-radius: 50%;
+            z-index: -1;
+            background: linear-gradient(131.47deg, rgba(52, 108, 217, 0) 13.96%, rgba(52, 108, 217, 0.25) 85.97%);
+        }
+        .banner__img{
+            position: absolute;
+            margin-top: 5rem;
+            margin-left: 2px;
+            z-index: 1;
+        }
+    }
+    
+}

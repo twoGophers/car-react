@@ -1,0 +1,76 @@
+.competitionItem{
+    width: 270px;
+    height: 283px;
+    margin-top: 2rem;
+    &__img {
+        display: flex;
+        .catalog-images__images {
+            width: 100%;
+            width: 270px;
+            height: 160px;
+            border-radius: 10px 10px 0px 0px;
+        }
+    }
+    &__content {
+        @include displayf($df, $fdr, $jcsb, $aifs);
+        .price-item{
+            margin-top: 1.3rem;
+            margin-left: 20px;
+            &__name {
+                @include font ($fz20, $fw7, $fh26, $fsn);
+                font-family: $ffr;
+                color: #252A34;
+            }
+            &__price {
+                display: flex;
+                flex-direction: row;
+                .price-item__hard{
+                    @include font ($fz30, $fw7, $fh38, $fsn);
+                    color : #FF2E63;
+                    font-family: $ffr;
+                    &::before {
+                        content: "\0024";
+                    }
+                }
+                .price-item__small{
+                    @include font ($fz20, $fw5, $fh26, $fsn);
+                    font-family: $ffr;
+                    color: #999999;
+                    margin-left: 0.5rem;
+                    margin-top: 0.5rem;
+                    text-decoration : line-through;
+                    &::before {
+                        content: "\0024";
+                    }
+                }
+            }
+            &__tickets {
+                @include font ($fz14, $fw4, $fh19, $fsn);
+                font-family: $ffo;
+                color: #343434;
+                margin-top: 0.5rem;
+            }
+        }
+    }
+    &__content-button {
+        height: 17.5vh;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        .competitionItem__but{
+            width: 40px;
+            height: 40px;
+            background: #346CD9;
+            border-radius: 10px 0px;
+            @include displayf($df, $fdr, $jcc, $aic);
+            .competitionItem__button{
+                cursor: pointer;
+                &:active {
+                    transition: 0.3s;
+                    transform: rotate(1.1);
+                }
+            }
+        }
+        
+    }
+}

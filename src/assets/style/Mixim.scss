@@ -1,0 +1,49 @@
+$ffo : Open Sans;
+$ffr : Rajdhani;
+$fsn : normal;
+$fz16 : 16px;
+$fz14 : 14px;
+$fz20 : 20px;
+$fz30 : 30px;
+$fz50 : 50px;
+$fz36 : 36px;
+$fw4 : 400;
+$fw5 : 500;
+$fw6 : 600;
+$fw7 : 700;
+
+$fh19 : 19px;
+$fh22 : 22px;
+$fh26 : 26px;
+$fh38 : 38px;
+$fh46 : 46px;
+$fh60 : 60px;
+
+
+@mixin font ($fz14, $fw, $lh, $fsn) {
+    font-size: $fz14;
+    font-weight: $fw;
+    line-height: $lh;
+    font-style: $fsn;
+}
+
+$df : flex;
+$fdr : row;
+$fdrr : row-reverse;
+$fdc : column;
+$jcc : center;
+$jcsb : space-between;
+$jcfe : flex-end;
+$jsbs : flex-start;
+$aic : center;
+$aife : flex-end;
+$aifs : flex-start;
+
+$oul : 1px solid black;
+
+@mixin displayf($df, $fdr, $jcsb, $aic) {
+    display: $df;
+    flex-direction: $fdr;
+    justify-content: $jcsb;
+    align-items: $aic;
+}

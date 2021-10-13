@@ -1,0 +1,112 @@
+{
+    "cars" : [
+        {
+            "id" : 1,
+            "name": "2020 Audi S5 Coupe",
+            "priceNew": "19.99",
+            "price" : "54.99",
+            "tickets": 5878,
+            "description": "All the exterior details of the Audi S5 Coupé, from the characteristic S-family radiator grille with double slats at the front to the four-pipe exhaust system at the rear, point to the car's main feature - its outstanding dynamics. Its petrol three-liter turbo V6 TFSI engine has a capacity of 354 hp. with. and a maximum torque of 500 Nm. The quattro all-wheel drive helps to efficiently harness this energy. On request, the car will be equipped at the factory with a sports rear inter-wheel differential. It allows you to attack corners in a more aggressive manner, although the handling of the Audi S5 Coupé should be considered impeccable.",
+            "images": "AudiS5.png"
+        },
+        {
+            "id": 2,
+            "name": "2016 Ford Mustang GT",
+            "priceNew": "7.99",
+            "price": "9.68",
+            "tickets": 3290,
+            "description": "Ford Mustang in 2016 belonged to the 6th generation, produced in the body: open body, coupe. The car was equipped with motors of volume: 2.3, 3.7, 5.0 liters. In 2016, the Ford Mustang was left without restyling.",
+            "images": "FordMustang.png"
+        },
+        {
+            "id": 3,
+            "name": "2020 Bugatti Chiron",
+            "priceNew": "0.99",
+            "price": "1.39",
+            "tickets": 4014,
+            "description": "For the most well-heeled among us, the average run-of-the-mill supercar may fall short of fulfilling our needs. If transportation with a six-figure price isn't exclusive enough for your tastes, there's the 2020 Bugatti Chiron. The Chiron costs almost $3 million, and it's about as exotic as hypercars get. With fluid curves and angrily squinting headlights, this coupe's exterior design communicates power and performance, and its standard 1500-hp engine endows it with acceleration capabilities worthy of a bullet train. The Chiron's cabin is deluxe, but storage space is minimal, and amenities such as driver-assistance technology and an infotainment screen are missing. While this Bugatti may not be the most accommodating choice for something as mundane as a daily commute, it excels as a head-turning lust object and all-around performance machine.",
+            "images": "Bugatti.png"
+        },
+        {
+            "id": 4,
+            "name": "2019 Porsche 911 Carrera",
+            "priceNew": "1.99",
+            "price": "2.99",
+            "tickets": 484,
+            "description": "Visually, the 911 Carrera 4 features design elements common to the entire model range: pronounced wheel arches, a front boot lid with stamping reminiscent of classic 911 models, and a full-width LED strip at the rear. The standard 911 Carrera 4 is visually distinguished from the 911 Carrera 4S by the single tailpipes. The standard 911 Carrera 4 models are identified by the single rectangular tailpipes located on the rear sides, while the 4S models have a pair of twin tailpipes on each side. A sports exhaust system with two oval tailpipes is available as an option for all models",
+            "images": "Porsh.png"
+        },
+        {
+            "id": 5,
+            "name": "Mercedes-Benz GLE купе новый C167",
+            "priceNew": "3.99",
+            "price": "5.99",
+            "tickets": 384,
+            "description": "Mercedes-Benz GLE Coupe only on paper confirms its body status. In fact, from the coupe, it only has a sloping roof and high speed data. In fact, the car is a powerful two-door crossover with separate entrances to each of the two rows of seats, a large trunk, a body length of almost 5 meters and a height of more than two. The car is good in everything - externally, internally, on the track, technically and in terms of comfort. After installing the new E-ABC suspension, the crossover will easily pull itself out of the most difficult road twists and turns.",
+            "images": "MercedesGle.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Lexus IS 350",
+            "priceNew": "3.99",
+            "price": "4.99",
+            "tickets": 484,
+            "description": "The images show the F Sport version of the IS 350. The current IS 350 is powered by a 3.5-liter V6 2GR-FSE producing 318 hp. Perhaps the same motor will migrate to a new generation. 245-horsepower 2.0-liter turbo four, from IS 300 (formerly IS 200t) can also go to the novelty",
+            "images": "Lexus.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Ford Fusion",
+            "priceNew": "2.99",
+            "price": "3.99",
+            "tickets": 584,
+            "description": "This spring, Ford announced the imminent retirement of the last sedan in its model range: the Fusion, known in the European market as Mondeo, was decided to be phased out due to falling demand. In 2019, more than 166 thousand copies of the sedan were sold in the United States, and almost 37 thousand cars were sold in the first quarter of this year. Now, according to The Detroit Bureau, the last copy of the Ford Fusion sedan has been released and there will be no heir. From now on, the brand will focus on the more popular SUVs, crossovers, pickup trucks and the Mustang sports car.",
+            "images": "ford.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Nissan Kicks",
+            "priceNew": "3.99",
+            "price": "4.99",
+            "tickets": 684,
+            "description": "The controversial and catchy Nissan Juke is a thing of the past. Now you can't say who more: those who rejoice at his resignation or those who will miss him. But a holy place is never empty, and the Japanese have already presented the successor to the compact crossover - Nissan Kicks, which looks more familiar and does not cause a desire to immediately speak out or make a grimace. But do not immediately discount a beginner. Perhaps he more than compensates for the lack of external expression with the best consumer qualities in the class?",
+            "images": "nissan.jpg"
+        },
+        {
+            "id": 9,
+            "name": "LADA 4Х4",
+            "priceNew": "3.99",
+            "price": "4.99",
+            "tickets": 784,
+            "description": "Positive impressions of the interior are also formed with the help of a new headlining, on which a more efficient lighting shade with an integrated ERA-GLONASS unit is mounted. New roof rails and sun visors have been used, as well as redesigned upholstery for the windshield pillars.",
+            "images": "vaz.jpg"
+        },
+        {
+            "id": 10,
+            "name": "Opel Astra",
+            "priceNew": "3.99",
+            "price": "4.99",
+            "tickets": 784,
+            "description": "The sixth Astra, like the fifth, is equipped with a 1.2 PureTech gasoline turbo engine (110 HP, 205 N • m; 130 HP, 230 N • m) and a 1.5 BlueHDi turbodiesel (130 HP, 300 N • m). Both motors are coupled with a six-speed mechanics and an eight-speed automatic with front-wheel drive. In addition, two hybrid versions of 180 and 225 hp are promised, providing an electric range of 60 and 59 km (WLTP). The current Astra in Germany is estimated at 22 465-35 995 euros (1.98-3.17 million rubles). For 2020, 70 550 Asters were sold in Europe (-66 088).",
+            "images": "Opel.jpg"
+        },
+        {
+            "id": 11,
+            "name": "DAEWOO NEXIA",
+            "priceNew": "2.99",
+            "price": "4.99",
+            "tickets": 984,
+            "description": "In the period from 1998 to 2008, the cars were equipped with G15MF power units with a working volume of 1.5 liters and a capacity of 75 horsepower. This engine, in fact, is a copy of the engine installed in the Opel Kadett E. In 2003, the Daewoo Nexia was restyled. The car was not only changed externally, but also received a modernized engine that develops a power of 85 horsepower. These engines met the Euro-2 environmental requirements and were produced until 2008. In 2008, the Uzbek company UzDaewoo updated the car. Daewoo Nexia received new bumpers, optics and interior. The engines that did not comply with Euro-3 standards were replaced by 80-horsepower and 109-horsepower units from Chevrolet Lanos and Chevrolet Lacetti, respectively.",
+            "images": "Nexia.jpg"
+        },
+        {
+            "id": 12,
+            "name": "Kia K7",
+            "priceNew": "3.99",
+            "price": "4.99",
+            "tickets": 1984,
+            "description": "The new Kia K8 was the first car of the company, in which experts applied completely new design solutions. In particular, the flagship sedan received a frameless diamond-shaped radiator grill, which literally crawls  onto the front bumper. On the sides of it, designers have placed decorative patterns.",
+            "images": "Kia.jpg"
+        }
+    ]
+}
