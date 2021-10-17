@@ -1,0 +1,26 @@
+.latestwinners{
+    margin-top: 6.2rem;
+    .competitions__catalog {
+        .latestWinnersItem{
+            border-radius: 10px;
+            height: 80%;
+            .latestWinnersItem-img {
+                .latestWinnersItem-images {
+                    width: 100%;
+                }
+            }
+        }
+        .latestWinnersItem__content {
+            height: 5.5rem;
+            .competitionItem__content-haracter{
+                .latestWinnersItem-name{
+                    margin-top: -0.1rem;
+                }
+                .latestWinnersItem-tickets {
+                    margin-top: 0.1rem;
+                }
+            }
+        }
+    }
+    
+}

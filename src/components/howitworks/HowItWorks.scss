@@ -1,0 +1,19 @@
+.how-it-works {
+    @include displayf($df, $fdc, $jcc, $aic);
+    width: 100%;
+    margin-top: 1.8rem;
+    &__title {
+        @include displayf($df, $fdc, $jcc, $aic);
+        width: 100%;
+        .how-it-works__title-title{
+            @include font ($fz36, $fw7, $fh46, $fsn);
+            font-family: $ffr;
+        }
+    }
+    &__block{
+        width: 100%;
+        @include displayf($df, $fdr, $jcsb, $aic);
+        align-items: stretch;
+    }
+    
+}

@@ -1,0 +1,21 @@
+.footer-main{
+    background: #346CD9;
+    height: 100px;
+    margin-top: 3.4rem;
+    .footer{
+        display: flex;
+        align-items: center;
+        &__footer-logo{
+            @include font ($fz30, $fw7, $fh38, $fsn);
+            letter-spacing: 0.05em;
+            font-family: $ffr;
+            text-transform: uppercase;
+            color: #FFFFFF;    
+        }
+        &__footer-link {
+            color: white;
+            @include font($fz14, $fw6, $fh19, $fsn);
+            font-family: $ffo;
+        }
+    }
+}

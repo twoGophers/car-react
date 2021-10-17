@@ -1,4 +1,4 @@
-import React from "react";
+
 import { BrowserRouter as  Link } from "react-router-dom";
 import logo from "../../assets/images/LOGOAuto.svg";
 
@@ -30,7 +30,7 @@ function Header() {
           </div>
         </header>
       </div>
-    );
+    )
 }
 
 export default Header;

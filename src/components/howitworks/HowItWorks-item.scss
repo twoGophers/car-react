@@ -1,0 +1,31 @@
+.hot-it-works-item{
+    // @include displayf($df, $fdr, $jcc, $aic);
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    &__block{
+        .hot-it-works-item__block-images {
+            display: flex;
+            justify-content: center;
+            margin-top: 3.2rem;
+            .hot-it-works-item__block-img {
+                width: 25%;
+            }
+        }
+        .hot-it-works-item__block-text {
+            @include font ($fz16, $fw4, $fh22, $fsn);
+            font-family: $ffo;
+            color: #343434;
+            text-align: center;
+            margin-top: 1.9rem;
+        }
+    }
+    &__vector {
+        @include displayf($df, $fdr, $jcc, $aic);
+        margin-bottom: 4rem;
+    }
+}
+
+.hot-it-works-item:nth-child(4){
+    width: 250px;
+}

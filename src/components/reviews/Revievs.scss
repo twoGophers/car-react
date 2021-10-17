@@ -1,0 +1,82 @@
+.revievs{
+    background: rgba(52, 108, 217, 0.12);
+    display: flex;
+    flex-direction: row;
+    margin-top: 6.1rem;
+    height: 51vh;
+    &__slider {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .revievs__title{
+            display: flex;
+            flex-direction: column;
+            width: 62%;
+            height: 60%;
+            .revievs__text{
+                @include font ($fz20, $fw6, $fh30, $fsn);
+                color: #343434;
+                text-align: center;
+                font-family: $ffo;
+                text-align: center;
+                margin-left: -2px;
+            }
+            .revievs__user{
+                 @include font ($fz16, $fw4, $fh30, $fsn);
+                 text-align: center;
+                 text-transform: uppercase;
+                 color: #343434;
+                    margin-top: 1.4rem;
+            }
+            .revievs__eclipse-block {
+                display: flex;
+                justify-content: center;
+                .revievs__eclipse{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    width: 15%;
+                    .revievs__eclipse-item{
+                        width: 10px;
+                        height: 10px;
+                        border-radius: 50%;
+                        background: rgba(255, 46, 99, 0.33);
+                        margin-top: 2rem;
+                        cursor: pointer;
+                    }
+                    .revievs__eclipse-item-active {
+                        background: #FF2E63;
+                    }
+                }
+            }
+            
+        }
+    }
+    &__rectangle {
+        width: 50%;
+        display: flex;
+        position: relative;
+
+        
+        .revievs__rectangle-img {
+            width: 100%;
+        }
+    }
+    &__rectangle-animation {
+        animation: revievsImg 0.5s linear;
+        animation-fill-mode: both;
+    }
+}
+    @keyframes revievsImg {
+        0%{
+            
+            opacity: 0.5;
+        }
+        100%{
+            
+            opacity: 1;
+        }
+    }
+
+

@@ -1,15 +1,14 @@
 import magnifier from '../../assets/images/search80737.svg';
 import basket from '../../assets/images/basket3081797.svg';
 import CompetitionItem from './CompetitionItem';
-import catalog from '../../db/db.json';
 import React, {useState, useEffect} from 'react';
 
 function Competitions() {
     const [error, setError] = useState(null);
     const [isLoader, setIsLoader] = useState(false);
     const [items, setItems] = useState([]);
-    const [itemsFour, setItemFour] = useState([])
 
+    let coll = 4;
 
     useEffect(() => {
         fetch("https://car-react-ba290-default-rtdb.europe-west1.firebasedatabase.app/cars/.json")
@@ -18,7 +17,7 @@ function Competitions() {
             .then(
                 (result) => {
                     setIsLoader(true);
-                    setItems(result.slice(0, 12));
+                    setItems(result.slice(0, coll));
                     
                 },
                 (error) => {
@@ -28,13 +27,19 @@ function Competitions() {
             )
     }, [])
 
-    
+    let styleLoading = [
+        {
+        display : "flex",
+        justifyContent : "center",
+        alignItem : "center"
+        }
+    ]
 
 
     if (error) {
         return <div>Ошибка: {error.message}</div>;
     } else if (!isLoader) {
-        return <div>Загрузка...</div>;
+        return <div >Загрузка...</div>;
     } else {
         return(
             <div className="_container">
@@ -57,11 +62,11 @@ function Competitions() {
                         <span></span>
                     </div>
                     <div className="competitions__still-loading still-loading">
-                        <button>Still Loading</button>
+                        <button className="still-loading__button" >Still Loading</button>
                     </div>
                 </div>
             </div>
-            )
+        )
     }
 }
 
