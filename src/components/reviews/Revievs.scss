@@ -63,20 +63,32 @@
             width: 100%;
         }
     }
-    &__rectangle-animation {
-        animation: revievsImg 0.5s linear;
-        animation-fill-mode: both;
+}
+
+.hide {
+    display: none;
+}
+
+.rectangle-animation {
+    animation: revievsImg 1.5s linear;
+    animation-fill-mode: both;
+}
+@keyframes revievsImg {
+    0%{
+        
+        opacity: 0.5;
+    }
+    100%{
+        
+        opacity: 1;
     }
 }
-    @keyframes revievsImg {
-        0%{
-            
-            opacity: 0.5;
-        }
-        100%{
-            
-            opacity: 1;
+
+
+@media screen and (min-width : 1280px) {
+    .revievs{
+        &__slider {
+            width: 70%;
         }
     }
-
-
+}

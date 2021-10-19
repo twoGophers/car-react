@@ -8,44 +8,57 @@ function Revievs() {
 
     const [textItem, setTextItem] = useState('');
     const [revievsName, setrevievsName] = useState('');
-    const [revievsImg, setrevievsImg] = useState('');
    
     useEffect(() => {
-        
-        let revievs__rectangleImg = document.querySelector('.revievs__rectangle');
-        let revievs__user = document.querySelector('.revievs__user');
-        let classItem = document.querySelectorAll('.revievs__eclipse-item');
-        
-        classItem.forEach(item => {
-            item.addEventListener('click', function (e) {
-                let dataItem = item.getAttribute('data');
-                if (dataItem == 'one') {
-                    
-                        setTextItem('5');
-                        setrevievsName('Danny Churchman');
-                        setrevievsImg(revievs1);
-                    revievs__rectangleImg.classList.toggle('revievs__rectangle-animation');
-                    revievs__user.classList.toggle('revievs__rectangle-animation');
 
-                    
-                } else if (dataItem == 'two') {
+        let revievs__eclipseItem = document.querySelectorAll('.revievs__eclipse-item');
+        let revievs__rectangleImg = document.querySelectorAll('.revievs__rectangle-img');
+        let revievs__eclipse = document.querySelector('.revievs__eclipse');
 
-                        setTextItem('2');
-                        setrevievsName('Monica Ref');
-                        setrevievsImg(revievs2);
-                    revievs__rectangleImg.classList.toggle('revievs__rectangle-animation');
-                    revievs__user.classList.toggle('revievs__rectangle-animation');
-
-                } else {
-
-                        setTextItem('3');
-                        setrevievsName('Luiza Fox');
-                        setrevievsImg(revievs3);
-                    revievs__rectangleImg.classList.toggle('revievs__rectangle-animation');
-                    revievs__user.classList.toggle('revievs__rectangle-animation');
-                }
+        function hideTabsContent() {
+            revievs__rectangleImg.forEach(item => {
+                item.classList.add('hide');
+                item.classList.remove('revievs__rectangle-img', 'rectangle-animation');
             })
+
+            revievs__eclipseItem.forEach(item => {
+                item.classList.remove('revievs__eclipse-item-active');
+            })
+
+        }
+
+        function showTabsContent(i = 0) {
+            revievs__rectangleImg[i].classList.remove('hide');
+            revievs__rectangleImg[i].classList.add('revievs__rectangle-img', 'rectangle-animation');
+            revievs__eclipseItem[i].classList.add('revievs__eclipse-item-active');
+        }
+
+        hideTabsContent();
+        showTabsContent();
+
+        revievs__eclipse.addEventListener('click', (e) => {
+            let target = e.target;
+
+            if (target && target.classList.contains('revievs__eclipse-item')) {
+                revievs__eclipseItem.forEach((item, i) => {
+                    if(target == item) {
+                        hideTabsContent();
+                        showTabsContent(i);
+                        if(i == 0) {
+                            setTextItem('5');
+                            setrevievsName('Danny Churchman');
+                        } else if(i == 1) {
+                            setTextItem('1');
+                            setrevievsName('Liza Fox');
+                        } else {
+                            setTextItem('2');
+                            setrevievsName('Alica Black');
+                        }
+                    }
+                })
+            }
         })
+
     
     }, [])
 
@@ -71,7 +84,9 @@ function Revievs() {
                     </div>
                 </div>
                 <div className="revievs__rectangle">
-                    <img className="revievs__rectangle-img" src={revievsImg || revievs1} alt={revievsImg || revievs1} />
+                    <img className="revievs__rectangle-img" src={revievs1} alt={revievs1} />
+                    <img className="revievs__rectangle-img" src={revievs2} alt={revievs2} />
+                    <img className="revievs__rectangle-img" src={revievs3} alt={revievs3} />
                 </div>
             </div>
     )
